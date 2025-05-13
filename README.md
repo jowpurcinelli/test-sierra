@@ -12,7 +12,7 @@
 - Node.js >= 18
 - pnpm >= 8
 - PostgreSQL >= 14
-- Docker
+- Docker (Local DB instances are served trough docker, automatically settled via scripts, to set, create, migrate and work with the local db)
 
 ### Installation
 
