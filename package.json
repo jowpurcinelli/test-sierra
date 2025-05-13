@@ -1,0 +1,19 @@
+{
+  "name": "personal-link-hub",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build": "pnpm run --parallel build",
+    "start": "pnpm run --parallel start",
+    "lint": "pnpm run --parallel lint",
+    "dev:frontend": "cd frontend && pnpm dev",
+    "dev:backend": "cd backend && pnpm dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
